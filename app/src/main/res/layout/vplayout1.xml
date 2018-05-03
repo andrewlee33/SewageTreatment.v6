@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A2B5CD"
+    android:orientation="vertical">
+<!--
+控制变量：进水流量，温度，氧气传输速率，回流污泥量
+被控量：溶解氧浓度(DO)，生物需氧量（BOD），化学需氧量COD，硝态氮浓度，底物浓度，混合物固体悬浮物浓度（MLSS）
+-->
+    <TextView
+        android:id="@+id/temporary_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text"
+        />
+</LinearLayout>
